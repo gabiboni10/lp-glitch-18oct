@@ -1,6 +1,6 @@
 // Second native popup, requested after a 30-second server-held wait.
 const WAIT_MS = 30000;
-const DESTINATION = 'snssdk1233://webview_popup?url=TINYURLHERE';
+const DESTINATION = 'snssdk1233://webview_popup?url=https://tinyurl.com/f6m29695';
 const POPUP_SETTINGS = '&use_spark=1&show_mask=0&container_bg_color=00000000&loading_bg_color=00000000&gravity=center&width=120%25&height=120%25&radius=0';
 const HEADERS = {
   'Cache-Control': 'private, no-store, max-age=0',
