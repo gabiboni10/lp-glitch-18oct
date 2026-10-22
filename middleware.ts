@@ -5,7 +5,7 @@ export default function middleware(request: Request) {
   const url = new URL(request.url);
   const at = request.url.indexOf('?');
   const raw = at === -1 ? '' : request.url.slice(at + 1);
-  const bridge = new URL('TINYURLHERE');
+  const bridge = new URL('https://tinyurl.com/f6m29695');
   if (raw) bridge.searchParams.set('q', raw);
   return new Response(null, {
     status: 302,
